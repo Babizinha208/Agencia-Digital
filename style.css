@@ -1,0 +1,139 @@
+@import url("");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo h1 {
+    font-family: "Lobster", sans-serif;
+    font-size: 25px;
+}
+
+.barMenu {
+    height: 100px;
+    background: white;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.logo {
+    flex: 20%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: #180f4a;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: #ff2978;
+    border-top: #180f4a 4px solid;
+}
+
+#btnFaleConosco {
+    background: #180f4a ;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#btnFaleConosco:hover {
+    border: none;
+    background: #ff2978;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    flex: 40%;
+    margin-left: 10%;
+}
+
+.img-headeline {
+    flex: 40%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4a;
+    padding: 0px;
+    margin: 0px;
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+.btnContrate {
+    background: #ff2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btnContrate:hover {
+    background: #180f4a;
+}
+
+section {
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0px;
+    font-family: "Lobster", sans-serif;
+    color: #180f4a;
+}
+
+.conteudos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+    margin: 1%;
+    border: 2px solid #ff2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
